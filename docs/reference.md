@@ -1,0 +1,3 @@
+# Referencias
+
+::: cuadratura.cuadratura
