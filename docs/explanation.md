@@ -32,7 +32,7 @@ lo cual ajusta los puntos y pesos para adaptarlos al intervalo deseado.
 En este trabajo se evaluó numéricamente la siguiente integral:
 
 \begin{align}
-\int_{0}^{\pi} sin(x^2)dx
+\int_{0}^{\pi} \sin(x^2)dx
 \end{align}
 una función **oscilatoria** cuya integral no tiene una forma cerrada.
 Se utiliza la función np.polynomial.legendre.leggauss(N) de NumPy, que proporciona los puntos y pesos para un número N de nodos. Luego se aplican los cambios de intervalo para ajustar los puntos al dominio de integración $[0, \pi]$.
